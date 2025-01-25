@@ -1,3 +1,66 @@
-div {
-    background-color: pink;
+:root {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'NorseBold';
+    src: url('Norse-Bold.otf') format('opentype');
+  }
+body{
+    display: flex;
+}
+
+.leftSideContainer {
+    background-image: url('altumcode-mCj7UinqOYQ-unsplash.jpg');
+    background-size: cover;
+    width: 35vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftSideContainer .imageSidebarLogo{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20vh;
+    justify-content: center;
+}
+
+.leftSideContainer .imageSidebarLogo img{
+    width: 20%;
+    height: 80%;
+    justify-self: center;
+    align-self: center;
+}
+
+.leftSideContainer .imageSidebarLogo p{
+    align-self: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: 'NorseBold',sans-serif;
+    font-size: 3em;
+}
+
+.leftSideContainer p{
+    margin-top: auto;
+    align-self: center;
+    justify-content: center;
+    justify-self: flex-end;
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+.leftSideContainer p a{
+    color: orange;
+}
+
+
+.rightSideContainer {
+    background-color: antiquewhite;
+    width: 65vw;
+    height: 100vh;
 }
