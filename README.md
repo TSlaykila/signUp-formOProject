@@ -1,7 +1,7 @@
 
 
 # Typing Sign-Up Web Page
-Overview
+### Overview
 The Typing Sign-Up Web Page is a project designed for programmers to practice typing while focusing on writing code, rather than on the act of typing itself. This project features a responsive layout that adjusts for different screen sizes and includes a sign-up form to collect essential user details.
 
 ### Features
