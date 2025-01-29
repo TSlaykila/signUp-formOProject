@@ -9,9 +9,60 @@
 <body>
     <div class="leftSideContainer"> 
         <div class="imageSidebarLogo"> <img src="odin-lined.png" alt="Logo"> <p> Odin </p> </div>
-        <p>Photo by <a href="https://unsplash.com/@altumcode?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">AltumCode</a> on <a href="https://unsplash.com/photos/person-typing-on-turned-on-macbook-mCj7UinqOYQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        <p id="credit">Photo by <a href="https://unsplash.com/@altumcode?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">AltumCode</a> on <a href="https://unsplash.com/photos/person-typing-on-turned-on-macbook-mCj7UinqOYQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
         </p>
     </div>
-    <div class="rightSideContainer"> </div>
+    <div class="rightSideContainer"> 
+        <div class="row">
+            <p> Practicing making a SignUp page, it is mean to be about typing for programmers, so that programmers can gain 
+                fluency while writing code without thinking how to write and more about the code, what we really want!
+            </p>
+            <p class="secondP">
+                Give it a try!                
+            </p>
+        </div>
+        <div class="rowMiddle">
+            <form action="database" method="post">
+                <legend>Sing Up</legend>
+                <div>
+                 <div>
+                     <label for="first_name">First Name </label>
+                     <input type="text" placeholder="Name" id="first_name" name="first_name">
+                 </div>
+                 <div>
+                     <label for="last_name">Last Name </label>
+                     <input type="text" placeholder="Last Name" id="last_name" name="last_name">
+                 </div>
+                </div>  
+
+                <div>
+                    <div>
+                        <label for="email">Email </label>
+                        <input type="email" placeholder="example@gmail.com" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="Phone Number">Phone Number </label>
+                        <input type="number" placeholder="5039710982" id="phone_number" name="phone_number">
+                    </div>
+                   </div>  
+
+                   <div>
+                    <div>
+                        <label for="password">Password </label>
+                        <input type="password" placeholder="*********" id="password" name="password">
+                    </div>
+                    <div>
+                        <label for="confirm_password">Confirm Password </label>
+                        <input type="password" placeholder="*********" id="confirm_password" name="confirm_password">
+                    </div>
+                   </div>  
+            </form>
+        </div>
+        <div class="row">
+            <button type="button">Create Account</button>
+            <p id="logIn">Already have an account? <a href="google.com"> Log in</a></p>
+        </div>
+    </div>
+
 </body>
 </html>
