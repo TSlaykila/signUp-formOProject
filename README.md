@@ -1,8 +1,8 @@
 
 
 # Typing Sign-Up Web Page
-- Overview
-- The Typing Sign-Up Web Page is a project designed for programmers to practice typing while focusing on writing code, rather than on the act of typing itself. This project features a responsive layout that adjusts for different screen sizes and includes a sign-up form to collect essential user details.
+Overview
+The Typing Sign-Up Web Page is a project designed for programmers to practice typing while focusing on writing code, rather than on the act of typing itself. This project features a responsive layout that adjusts for different screen sizes and includes a sign-up form to collect essential user details.
 
 ### Features
 - Responsive Design: Utilizes flexbox for layout management, ensuring the page looks great on all devices.
@@ -14,7 +14,7 @@
 - CSS3: Styled using flexbox, custom fonts, and responsive design techniques.
 - Fonts: The page uses the custom font Norse-Bold for the logo, along with system fonts like Courier New and Lucida Sans.
 - Media Queries: Ensures the page is responsive and adapts to different screen sizes.
-- 
+  
 File Structure
 - index.html        # Main HTML file containing the webpage structure.
 - style.css         # Stylesheet containing the CSS rules for layout and design.
